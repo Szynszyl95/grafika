@@ -1,0 +1,21 @@
+KODOWANIE
+
+1. Wczytanie pliku .bmp za pomoc¹ SDL.
+2. Wczytanie pliku .txt.
+2.1 Zmiana kodu ANSI znaków pliku .txt na kod binarny
+3. Zakodowanie ci¹gu znaków z pliku .txt podanym przez u¿ytkownika has³em.
+4. Stworzenie nowego pliku .bmp, 
+4a. Zakodowanie binarnie w pliku .bmp 3 ostatnich bitów ka¿dego koloru
+4b. Wczytanie ka¿dego pixela(getpixel) po kolei z wczeœniej wyrysowanego(setpixel) .bmp i zmiana wartoœci sk³adowych A, R, G i B.
+5.2 Zakodowanie has³a w pliku .bmp.
+5.3 Algorytm koduj¹cy koniec danych.
+
+ODKODOWANIE
+
+1. Wczytanie pliku .bmp za pomoc¹ SDL.
+2. Odczytanie zakodowanego ci¹gu 0 i 1 do napotkania koñca ci¹gu szyfrowania.
+3.1 Sprawdzenie poprawnoœci has³a i zwrócenie b³êdów w przypadku niezgodnoœci.
+3.2 Odszyfrowanie ci¹gu binarnego za pomoc¹ has³a.
+4. Konwersja Binary to Decimal.
+4.1 Konwersja Decimal to (char) ANSI
+5. Stworzenie pliku txt. z rozkodowan¹ treœci¹.
